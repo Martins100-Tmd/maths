@@ -11,4 +11,7 @@ export const mathUtilFn = {
    sub: function (a: number, b: number) {
       return a - b;
    },
+   sqr: function (a: number) {
+      return a * a;
+   },
 };

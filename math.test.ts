@@ -1,5 +1,5 @@
 import { mathUtilFn } from './math.utils';
-const { sub, sum, mul, div } = mathUtilFn;
+const { sub, sum, mul, div, sqr } = mathUtilFn;
 describe('Math Modules Test', () => {
    it('test for sum: it adds two numbers together', () => {
       expect(sum(10, 5)).toBe(15);
@@ -12,5 +12,8 @@ describe('Math Modules Test', () => {
    });
    it('test for div: it divide two numbers together', () => {
       expect(div(10, 5)).toBe(2);
+   });
+   it('test for sqr: it returns the square of a number', () => {
+      expect(sqr(10)).toBe(100);
    });
 });
